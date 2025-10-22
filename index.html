@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KonsultasiSehat.id - Konsultasi Kesehatan Gratis</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <i class="fas fa-heartbeat"></i>
+                    <span>KonsultasiSehat.id</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="active">Beranda</a></li>
+                    <li><a href="#layanan">Layanan</a></li>
+                    <li><a href="#tentang">Tentang</a></li>
+                    <li><a href="#konsultasi">Konsultasi</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Konsultasi Kesehatan Gratis</h1>
+                <p>Dapatkan saran kesehatan profesional dari konselor berpengalaman</p>
+                <a href="#konsultasi" class="btn-primary">Mulai Konsultasi</a>
+            </div>
+            <div class="hero-image">
+                <i class="fas fa-user-md"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Layanan Section -->
+    <section id="layanan" class="services">
+        <div class="container">
+            <h2 class="section-title">Layanan Kami</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-comments"></i>
+                    <h3>Konsultasi Online</h3>
+                    <p>Konsultasi kesehatan via chat atau video call kapan saja</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-notes-medical"></i>
+                    <h3>Informasi Kesehatan</h3>
+                    <p>Artikel dan tips kesehatan terpercaya untuk Anda</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-hand-holding-heart"></i>
+                    <h3>Gratis 100%</h3>
+                    <p>Semua layanan konsultasi tanpa biaya sepeserpun</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>24/7 Support</h3>
+                    <p>Kami siap membantu Anda setiap saat</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tentang Konselor -->
+    <section id="tentang" class="about">
+        <div class="container">
+            <h2 class="section-title">Konselor Kami</h2>
+            <div class="counselor-profile">
+                <div class="counselor-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user-nurse"></i>
+                    </div>
+                </div>
+                <div class="counselor-info">
+                    <h3>Nada Destya</h3>
+                    <p class="title">Konselor Kesehatan Profesional</p>
+                    <div class="credentials">
+                        <div class="credential-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>S1 Kesehatan Masyarakat</span>
+                        </div>
+                        <div class="credential-item">
+                            <i class="fas fa-certificate"></i>
+                            <span>Bersertifikat Konselor Kesehatan</span>
+                        </div>
+                        <div class="credential-item">
+                            <i class="fas fa-award"></i>
+                            <span>5+ Tahun Pengalaman</span>
+                        </div>
+                    </div>
+                    <p class="bio">
+                        Nada Destya adalah konselor kesehatan berpengalaman yang berdedikasi 
+                        untuk memberikan layanan konsultasi kesehatan yang berkualitas. 
+                        Dengan pendekatan yang ramah dan profesional, Nada siap membantu 
+                        Anda mengatasi berbagai permasalahan kesehatan.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulir Konsultasi -->
+    <section id="konsultasi" class="consultation">
+        <div class="container">
+            <h2 class="section-title">Formulir Konsultasi</h2>
+            <div class="consultation-container">
+                <div class="consultation-info">
+                    <h3>Cara Konsultasi</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Isi formulir dengan lengkap</li>
+                        <li><i class="fas fa-check"></i> Jelaskan keluhan Anda dengan detail</li>
+                        <li><i class="fas fa-check"></i> Tunggu balasan dari konselor kami</li>
+                        <li><i class="fas fa-check"></i> Dapatkan saran kesehatan profesional</li>
+                    </ul>
+                    <div class="info-box">
+                        <i class="fas fa-info-circle"></i>
+                        <p>Semua informasi yang Anda berikan akan dijaga kerahasiaannya</p>
+                    </div>
+                </div>
+                <div class="consultation-form">
+                    <form id="consultForm">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Nomor Telepon</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="age">Usia</label>
+                            <input type="number" id="age" name="age" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="gender">Jenis Kelamin</label>
+                            <select id="gender" name="gender" required>
+                                <option value="">Pilih</option>
+                                <option value="pria">Pria</option>
+                                <option value="wanita">Wanita</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="complaint">Keluhan Kesehatan</label>
+                            <textarea id="complaint" name="complaint" rows="5" required placeholder="Jelaskan keluhan Anda dengan detail..."></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Kirim Konsultasi</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak Section -->
+    <section id="kontak" class="contact">
+        <div class="container">
+            <h2 class="section-title">Hubungi Kami</h2>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>info@konsultasisehat.id</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <h3>Telepon</h3>
+                    <p>+62 812-3456-7890</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Alamat</h3>
+                    <p>Jakarta, Indonesia</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-heartbeat"></i> KonsultasiSehat.id</h3>
+                    <p>Platform konsultasi kesehatan gratis untuk masyarakat Indonesia</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Link Cepat</h4>
+                    <ul>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#layanan">Layanan</a></li>
+                        <li><a href="#tentang">Tentang</a></li>
+                        <li><a href="#konsultasi">Konsultasi</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Ikuti Kami</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 KonsultasiSehat.id. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
